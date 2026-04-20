@@ -1,3 +1,14 @@
+# Why Fork FluffyChat?
+This section is intended to answer any questions as to why we choose FluffyChat to fork over other open source clients. The reasons are as follows
+* Ease of forking
+   * FluffyChat's codebase is the simplest for us to modify for our purposes. It also does not require entitlements in the ios version that would be difficult for us to obtain, such as NSE Filtering.
+* Portability
+   * Being built in Flutter means that we can use this fork across desktop and mobile, on different operating systems, without having to build and maintain multiple forks of different client builds for each platofmr..
+* Feature set
+   * Some clients simply do not have the feature set we need, such as Spaces compatibility. For these reasons and more, FluffyChat was our best choice.
+     
+# FluffyChat
+
 ![Screenshot](https://github.com/krille-chan/fluffychat/blob/main/assets/banner_transparent.png?raw=true)
 
 [FluffyChat](https://fluffy.chat) is an open source, nonprofit and cute [[matrix](https://matrix.org)] client written in [Flutter](https://flutter.dev). The goal of the app is to create an easy to use instant messenger which is open source and accessible for everyone.

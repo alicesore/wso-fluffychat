@@ -3,7 +3,7 @@ This section is intended to answer any questions as to why we choose FluffyChat 
 * Ease of forking
    * FluffyChat's codebase is the simplest for us to modify for our purposes. It also does not require entitlements in the ios version that would be difficult for us to obtain, such as NSE Filtering.
 * Portability
-   * Being built in Flutter means that we can use this fork across desktop and mobile, on different operating systems, without having to build and maintain multiple forks of different client builds for each platofmr..
+   * Being built in Flutter means that we can use this fork across desktop and mobile, on different operating systems, without having to build and maintain multiple forks of different client builds for each platform.
 * Feature set
    * Some clients simply do not have the feature set we need, such as Spaces compatibility. For these reasons and more, FluffyChat was our best choice.
      

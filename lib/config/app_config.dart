@@ -8,8 +8,8 @@ abstract class AppConfig {
 
   static const Color chatColor = primaryColor;
   static const double messageFontSize = 16.0;
-  static const bool allowOtherHomeservers = true;
-  static const bool enableRegistration = true;
+  static const bool allowOtherHomeservers = false;
+  static const bool enableRegistration = false;
   static const bool hideTypingUsernames = false;
 
   static const String inviteLinkPrefix = 'https://matrix.to/#/';
@@ -50,7 +50,8 @@ abstract class AppConfig {
   static final Uri homeserverList = Uri(
     scheme: 'https',
     host: 'raw.githubusercontent.com',
-    path: 'krille-chan/fluffychat/refs/heads/main/recommended_homeservers.json',
+    path:
+        'alicesore/wso-fluffychat/refs/heads/main/recommended_homeservers.json',
   );
 
   static const String mainIsolatePortName = 'main_isolate';
